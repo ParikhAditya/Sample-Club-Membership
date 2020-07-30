@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+  .membership {
+  width: 400px;
+  padding: 0% 0 0;
+  margin: 2px;
+  font-family:'Fjalla One';
+}
+.form input[type=text] {
+  font-family:'Fjalla One';
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 0;
+  padding: 14px;
+  box-sizing: border-box;
+  font-size: 16px;
+} 
+
+   .form select {
+  font-family:'Fjalla One';
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 1px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form button {
+  background: -webkit-linear-gradient(-86deg, blue, #Fefefe);
+-webkit-background-clip: text;
+-webkit-text-stroke: 20px transparent;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  outline: 0;
+  background: #0047ab;
+  width: 30%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  /*-webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;*/
+} 
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: inherit;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 10px;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 15px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 13px;
+     top: 8px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+
+body {
+  background-image: url('https://www.lpassociation.com/upload/images/112114-055216_7.jpg');
+  /*background: #EA3C53;  fallback for old browsers */
+  /*background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);*/
+  font-family: 'Fjalla One';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 350px;
+  margin: 0 auto autoi;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
